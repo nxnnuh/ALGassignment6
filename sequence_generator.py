@@ -36,7 +36,7 @@ def generate_sequences():
         with open(f"sequences/dna_{size}.json", "w") as f:
             json.dump(data, f, indent=2)
         
-        print(f"  ✓ Generated: sequences/dna_{size}.json")
+        print(f"Generated: sequences/dna_{size}.json")
     
     print("\n" + "="*70)
     print("Sequence generation complete!")
